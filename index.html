@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>profile</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- 폰트 어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -24,5 +32,46 @@
     />
     <link rel="manifest" href="assets/favicon (7)/site.webmanifest" />
   </head>
-  <body></body>
+  <body>
+    <section>
+      <!-- 상단 메뉴 -->
+      <nav class="menu">
+        <a href="#"><i class="fa-solid fa-bars"></i></a>
+        <a href="#"><i class="fa-regular fa-note-sticky"></i></a>
+      </nav>
+      <!-- 프로필 -->
+      <article class="profile">
+        <!-- 이미지 영역 -->
+        <div class="profile-image">
+          <img src="images/member1.jpg" alt="프로필이미지" />
+        </div>
+        <!-- 이름 -->
+        <div class="profile-text">
+          <h1>Jung Eun</h1>
+          <p>UI/UX INTERACTIVE DEVELOPER</p>
+        </div>
+        <a href="#" class="btn-view">view more</a>
+      </article>
+      <!-- 연락처 목록 -->
+      <div class="link-contact">
+        <ul class="contact">
+          <li>
+            <i class="fa-brands fa-facebook-f"></i>
+            <span>Visit My Facebook page</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>example@example.com</span>
+          </li>
+        </ul>
+        <!-- 멤버별 프로필 링크 -->
+        <nav class="others">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+        </nav>
+      </div>
+    </section>
+  </body>
 </html>
